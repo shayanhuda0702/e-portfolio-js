@@ -25,21 +25,21 @@
                 <img id="personal-logo" src="./assets/logo.svg" alt="">
             </figure>
             <ul class="nav__link--list">
-                <li class="nav__link">
+                <li class="nav__link" onclick="toggleModal()">
                     <a href="#" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
                     ">About</a>
                 </li>
-                <li class="nav__link" onclick="toggleModal()">
-                    <a href="#" class="
+                <li class="nav__link">
+                    <a href="#projects" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
                     ">Projects</a>
                 </li>
-                <li class="nav__link">
+                <li class="nav__link" onclick="toggleModal()">
                     <a href="#" class="
                     nav__link--anchor
                     link__hover-effect
@@ -69,15 +69,17 @@
                     <a href="#" target= "_blank"        class="social__link click">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="#" target= "_blank" class="social__link click">
+                    <a href="./assets/Shayan_Huda_Resume copy.pdf" target= "_blank" class="social__link click">
                         <i class="fa-solid fa-file"></i>
                     </a>
                 </div>
             </div>
         </header>
-        <button class="mail__btn click" onclick="toggleModal()">
-            <i class="fa-solid fa-envelope"></i>
-        </button>
+        <a href="#">
+            <button class="mail__btn click" onclick="toggleModal()">
+                <i class="fa-solid fa-envelope"></i>
+            </button>
+        </a>
         <a href="#projects" class="scroll">
             <div class="scroll__icon click"></div>
         </a>
@@ -261,12 +263,19 @@
                      ">
                         LinkedIn
                     </a>
-                    <a href="" class="
+                    <a href="./assets/Shayan_Huda_Resume copy.pdf" target="_blank" class="
                     footer__social--link
                     link__hover-effect
                     link__hover-effect--white
                     ">
                         Resume
+                    </a>
+                    <a href="#" onclick="toggleModal()" class="
+                    footer__social--link
+                    link__hover-effect
+                    link__hover-effect--white
+                    ">
+                        Contact
                     </a>
                 </div>
                 <div class="footer__copyright"> Copyright © 2026 Shayan Huda</div>
